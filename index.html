@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Tienda - Entrega 2</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Mi Tienda Virtual</h1>
+            <p>Elegí productos, agregá al carrito y calculá el total de tu compra.</p>
+        </header>
+
+        <!-- Área de mensajes de feedback (reemplaza alert) -->
+        <div id="mensaje-feedback" class="vacio" aria-live="polite"></div>
+
+        <!-- Sección de productos disponibles -->
+        <section class="seccion-productos">
+            <h2>Productos disponibles</h2>
+            <div id="grid-productos" class="grid-productos">
+                <!-- Se genera dinámicamente con JS -->
+            </div>
+        </section>
+
+        <!-- Sección del carrito -->
+        <section class="seccion-carrito">
+            <h2>Tu carrito</h2>
+            <ul id="lista-carrito">
+                <!-- Se genera dinámicamente con JS -->
+            </ul>
+            <div class="resumen-compra" id="resumen-compra">
+                <!-- Se genera dinámicamente con JS -->
+            </div>
+            <div class="botones-accion">
+                <button type="button" id="btn-calcular-total">Calcular total</button>
+                <button type="button" id="btn-vaciar-carrito">Vaciar carrito</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

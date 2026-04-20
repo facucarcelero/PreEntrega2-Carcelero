@@ -1,0 +1,7 @@
+[
+    { "nombre": "Lápiz", "precio": 150, "stock": 50 },
+    { "nombre": "Cuaderno", "precio": 450, "stock": 30 },
+    { "nombre": "Goma", "precio": 80, "stock": 100 },
+    { "nombre": "Regla", "precio": 200, "stock": 25 },
+    { "nombre": "Sacapuntas", "precio": 120, "stock": 40 }
+]
